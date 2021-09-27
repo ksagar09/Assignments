@@ -1,23 +1,37 @@
 import logo from './logo.svg';
-import './App.css';
+import './Assignments/ToggleText.js'
+import TimeComponent from './Assignments/TimeComponent'
+import ToggleText from './Assignments/ToggleText'
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import MoviesApp from './Assignments/Movies_App/Movielist';
+import Main from './Assignments/Counter/main';
+import StopWatch from './Assignments/Stop_Watch/StopWatch';
+import Search from './Assignments/Search/Search';
+import PicID from './Assignments/Picture Assignment/PicID';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="App">
+      {/* Question1 */}
+      {/* a */}
+      {/* <TimeComponent/> */}
+
+      {/* b */}
+      {/* <Search/> */}
+
+      {/* Question2 */}
+      {/* <ToggleText /> */}
+
+      {/* Question3 */}
+      {/* <Main/> */}
+
+      {/* Question4 */}
+      {/* <MoviesApp /> */}
+
+      {/* Question5 */}
+      {/* <StopWatch/> */}
+
+<PicID/>
     </div>
   );
 }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script class="jsbin" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <!-- <script src="./Assignments/Assignment 2/ArrayOfAnObject.js"></script> -->
+
+    <style>
+        table, table>td {
+            margin-top: 50px;
+            text-align: center;
+            background: rgb(100, 2, 2);
+            color: rgb(247, 243, 243);
+            text-align: left;
+        }
+
+        #show th,
+        #show td {
+            padding: 13px;
+        }
+
+        #btna td input {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="POST">
+        <table>
+            <th>Please enter data</th>
+            <tr>
+                <td>Car Brand</td>
+                <td><input id="Car" type="text" placeholder="Car Brand" /></td>
+            </tr>
+            <tr>
+                <td>Model</td>
+                <td><input id="Model" type="text" placeholder="Model name" /></td>
+            </tr>
+            <tr>
+                <td>Fuel Type</td>
+                <td><input id="Fuel" type="text" placeholder="Fuel Type" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="View Project Data" onclick="Insert()" /></td>
+            </tr>
+        </table>
+    </form>
+    <table border="2" id="show">
+        <thead>
+            <tr>
+                <th>Car Brand</th>
+                <th>Model Name</th>
+                <th>Fuel Type</th>
+            </tr>
+        </thead>
+    </table>
+    <br>
+
+    <div id="display"></div>
+
+</body>
+<script src="./Assignments/Assignment 2/tableContent.js"></script>
+
+</html>
